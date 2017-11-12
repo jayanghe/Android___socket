@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <ImageButton
+        android:id="@+id/stest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="105dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/pika0" />
+
+    <ImageButton
+        android:id="@+id/ctest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/kehu"
+        android:layout_marginTop="47dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/pika" />
+
+    <ImageView
+        android:id="@+id/kehu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/huozhuo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/stest"
+        android:layout_marginBottom="51dp"
+        android:layout_toLeftOf="@+id/stest"
+        android:src="@drawable/fuwu" />
+
+    <ImageView
+        android:id="@+id/fuwu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ctest"
+        android:layout_marginBottom="56dp"
+        android:layout_toRightOf="@+id/ctest"
+        android:src="@drawable/kehu" />
+
+</RelativeLayout>
